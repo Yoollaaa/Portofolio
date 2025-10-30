@@ -1,10 +1,9 @@
-/* === CUSTOM VARIABLES & RESET (WARNA BARU) === */
 :root {
-    --primary-color: #E85D04;      /* Oranye Hangat (Burnt Orange) */
-    --secondary-color: #1B263B;    /* Abu-abu Gelap Kebiruan untuk Judul */
-    --bg-main: #F9F9F9;            /* Latar Belakang Off-White */
+    --primary-color: #E85D04;      
+    --secondary-color: #1B263B;    
+    --bg-main: #F9F9F9;            
     --bg-card: #FFFFFF;
-    --text-color: #4A4A4A;          /* Abu-abu untuk Teks */
+    --text-color: #4A4A4A;          
     --border-color: #EAEAEA;
     --heading-font: 'Poppins', sans-serif;
     --body-font: 'Inter', sans-serif;
@@ -16,7 +15,6 @@
     box-sizing: border-box;
 }
 
-/* === GAYA GLOBAL === */
 html {
     scroll-behavior: smooth;
 }
@@ -43,7 +41,6 @@ img {
     margin-bottom: 3rem;
 }
 
-/* === HEADER === */
 #main-header {
     background: var(--bg-card);
     padding: 1.5rem 0;
@@ -82,7 +79,6 @@ nav a:hover {
     color: var(--primary-color);
 }
 
-/* === BAGIAN UTAMA (SECTIONS) === */
 section {
     padding: 5rem 0;
 }
@@ -115,7 +111,6 @@ section {
     margin-bottom: 2rem;
 }
 
-/* GAYA UNTUK FOTO PROFIL ANDA */
 .about-image {
     flex: 1;
     display: flex;
@@ -126,12 +121,11 @@ section {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    object-fit: cover; /* Memastikan foto tidak gepeng */
+    object-fit: cover; 
     border: 5px solid var(--bg-card);
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* === BAGIAN KOMPETENSI / SKILLS === */
 #skills {
     background: var(--bg-card); 
 }
@@ -160,15 +154,14 @@ section {
     gap: 0.75rem;
 }
 .skill-tags span {
-    background-color: #FFEFE5; /* Latar oranye muda */
-    color: #D35400; /* Warna teks oranye tua */
+    background-color: #FFEFE5; 
+    color: #D35400; 
     padding: 0.5rem 1rem;
     border-radius: 5px;
     font-size: 0.9rem;
     font-weight: 500;
 }
 
-/* === BAGIAN PROYEK === */
 .project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -192,7 +185,7 @@ section {
 }
 .project-info {
     padding: 1.5rem;
-    flex-grow: 1; /* Memastikan info mengisi ruang */
+    flex-grow: 1; 
     display: flex;
     flex-direction: column;
 }
@@ -202,11 +195,10 @@ section {
     margin-bottom: 0.5rem;
 }
 .project-info p {
-    flex-grow: 1; /* Mendorong tombol ke bawah */
+    flex-grow: 1; 
     margin-bottom: 1.5rem;
 }
 
-/* === BAGIAN KONTAK === */
 #contact {
     background: var(--bg-card);
 }
@@ -250,7 +242,6 @@ section {
     box-shadow: 0 0 0 3px rgba(232, 93, 4, 0.1);
 }
 
-/* === TOMBOL (BUTTONS) === */
 .btn {
     display: inline-block;
     background: var(--primary-color);
@@ -265,7 +256,7 @@ section {
     box-shadow: 0 4px 15px rgba(232, 93, 4, 0.2);
 }
 .btn:hover {
-    background-color: #c44d03; /* Warna oranye lebih gelap saat hover */
+    background-color: #c44d03; 
     transform: translateY(-3px);
     box-shadow: 0 7px 20px rgba(232, 93, 4, 0.3);
 }
@@ -275,10 +266,10 @@ section {
     font-size: 1.1rem;
 }
 
-/* === FOOTER === */
 #main-footer {
     background: var(--secondary-color);
     color: #ccc;
     text-align: center;
     padding: 2rem 0;
 }
+
